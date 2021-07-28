@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Mens from "./components/Mens";
 import Navbar from "./components/Navbar";
+import Womens from "./components/Womens";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/mens" component={Mens} />
+          <Route path="/womens" component={Womens} />
         </Switch>
         <Footer />
       </Router>

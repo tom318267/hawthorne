@@ -56,3 +56,26 @@ export const MENS_DATA = [
     img: "https://images.unsplash.com/photo-1512353087810-25dfcd100962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG1lbnMlMjBmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
   },
 ];
+
+export const WOMENS_DATA = [
+  {
+    name: "Gray Dress",
+    price: 40,
+    img: "https://images.unsplash.com/photo-1617922001439-4a2e6562f328?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60",
+  },
+  {
+    name: "Teal Dress",
+    price: 30,
+    img: "https://images.unsplash.com/photo-1564022984766-5e3d03e5883b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60",
+  },
+  {
+    name: "Denim Outfit",
+    price: 60,
+    img: "https://images.unsplash.com/photo-1617059322001-a61ce9551e08?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    name: "Gray Dress",
+    price: 40,
+    img: "https://images.unsplash.com/photo-1617922001439-4a2e6562f328?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60",
+  },
+];
