@@ -1,10 +1,11 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
+  { name: "Home", href: "/", current: false },
   { name: "Mens", href: "/mens", current: false },
   { name: "Womens", href: "/womens", current: false },
   { name: "Contact", href: "/contact", current: false },
@@ -47,9 +48,9 @@ const Navbar = () => {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link
+                      <a
                         key={item.name}
-                        to={item.href}
+                        href={item.href}
                         className={classNames(
                           "text-black text-lg font-petrona",
                           "px-3 py-2 rounded-md text-sm font-medium hover:bg-black hover:text-white"
@@ -57,7 +58,7 @@ const Navbar = () => {
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 </div>
@@ -69,9 +70,9 @@ const Navbar = () => {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Link
+                <a
                   key={item.name}
-                  to={item.href}
+                  href={item.href}
                   className={classNames(
                     "text-black hover:bg-black hover:text-white",
                     "block px-3 py-2 rounded-md font-petrona text-base font-medium"
@@ -79,7 +80,7 @@ const Navbar = () => {
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
             </div>
           </Disclosure.Panel>
