@@ -10,7 +10,7 @@ import Womens from "./components/Womens";
 
 const App = () => {
   return (
-    <div className="App overflow-hidden relative min-h-screen pb-60">
+    <div className="App overflow-hidden relative min-h-screen pb-48">
       <Router>
         <Navbar />
         <Switch>
