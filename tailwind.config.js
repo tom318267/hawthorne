@@ -14,6 +14,7 @@ module.exports = {
       overlay: "rgba(0, 0, 0, 0.7)",
       gray: "#C4C4C4",
       grayBackground: "#f3f4f6",
+      buttonGray: "#e8e8e8",
     }),
     extend: {
       backgroundImage: (theme) => ({

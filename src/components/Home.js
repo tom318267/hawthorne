@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import New from "./New";
 
 const Home = () => {
@@ -13,9 +14,12 @@ const Home = () => {
             <p className="sub-heading text-white font-noto font-thin text-xl w-1/2 mb-5">
               We're here to help you look your best!
             </p>
-            <button className="bg-white hvr-fade font-petrona text-lg sm:text-xl font-semibold p-3 w-1/2 sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 rounded-full">
-              Shop Now
-            </button>
+            <Link
+              to="/popular"
+              className="bg-white hvr-fade font-petrona text-lg sm:text-xl p-3 w-1/2 sm:w-1/3 md:w-1/3 lg:w-1/3 xl:w-1/3 rounded-full"
+            >
+              <button className="font-semibold">Shop Now</button>
+            </Link>
           </div>
         </div>
       </div>

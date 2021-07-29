@@ -16,7 +16,9 @@ const Contact = () => {
             rows="4"
             cols="50"
           ></textarea>
-          <button className="p-2 text-white bg-black rounded-md">Submit</button>
+          <button className="contact-button p-2 text-black hvr-fade-2 bg-buttonGray font-bold rounded-md">
+            Submit
+          </button>
         </form>
       </div>
     </div>

@@ -79,3 +79,26 @@ export const WOMENS_DATA = [
     img: "https://images.unsplash.com/photo-1617922001439-4a2e6562f328?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW4lMjBmYXNoaW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60",
   },
 ];
+
+export const POPULAR_ITEMS = [
+  {
+    name: "Flower Dress",
+    price: 35,
+    img: "https://images.unsplash.com/photo-1592669241067-2f92a1048085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+  },
+  {
+    name: "Brown Leather Coat",
+    price: 90,
+    img: "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+  },
+  {
+    name: "Teal Jumpsuit",
+    price: 60,
+    img: "https://images.unsplash.com/photo-1495385794356-15371f348c31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODV8fGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+  },
+  {
+    name: "Purple Lace Dress",
+    price: 50,
+    img: "https://images.unsplash.com/photo-1551803091-e20673f15770?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+  },
+];

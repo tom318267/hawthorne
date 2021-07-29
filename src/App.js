@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Mens from "./components/Mens";
 import Navbar from "./components/Navbar";
+import PopularItems from "./components/PopularItems";
 import Womens from "./components/Womens";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/mens" component={Mens} />
           <Route path="/womens" component={Womens} />
           <Route path="/contact" component={Contact} />
+          <Route path="/popular" component={PopularItems} />
         </Switch>
         <Footer />
       </Router>
