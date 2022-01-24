@@ -8,10 +8,10 @@ const Home = () => {
       <div className="bg-home w-full h-screen bg-cover bg-center">
         <div className="bg-overlay w-full h-screen">
           <div className="flex flex-col pt-36 sm:pt-0 sm:justify-center sm items-center text-center h-screen">
-            <h1 className="text-white animate__animated animate__fadeInUp text-5xl sm:text-6xl md:text-7xl leading-tight sm:leading-normal md:leading-normal lg:leading-normal xl:leading-normal font-oran font-bold tracking-tight uppercase mb-1">
+            <h1 className="text-white animate__animated animate__fadeInUp text-6xl md:text-7xl leading-tight sm:leading-normal md:leading-normal lg:leading-normal xl:leading-normal font-oran font-bold tracking-tight uppercase">
               Dress To Impress
             </h1>
-            <p className="sub-heading text-white font-noto font-thin text-xl w-1/2 mb-5">
+            <p className="sub-heading text-white font-noto font-thin text-xl mb-10">
               We're here to help you look your best!
             </p>
             <Link
